@@ -8,4 +8,10 @@ This process will run until the function returns 1 and when it does, 1 will be p
 
 Coin Experiment: 
 The random module will be imported as to access the function named 'randint()'.
-An empty list will be created at first and the
+A for loop is given that will run this code 1000 times.
+An empty list will be created inside the loop first and the initial values of the variables will be assigned.
+The number of tosses is taken as an input from the user and the next loop will run accordingly. The random values of H and T are generated and appended in the list.
+The final list will be printed. 
+The loop will now run for all values in the list and the number of heads is counted and if the number of heads will be six times in a row then the streak of heads will be incremented by 1 otherwise the count of Head will again be 0.
+The loop will again run for all values in the list and the number of tails will be counted this time and Tail occurs six times in a row the streak of tail will be incremented by 1 otherwise the count of tail will be 0.
+After the loop is through all the elements in the list the final answer will be printed and this whole code will run again.
