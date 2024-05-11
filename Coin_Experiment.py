@@ -1,10 +1,10 @@
 import random #imports a module named 'random'
-List=[] #creates an empty list
-countH=0
-countT=0
-streakH=0
-streakT=0
 for y in range(1000): #loop will run 1000 times
+    List=[] #creates an empty list
+    countH=0
+    countT=0
+    streakH=0
+    streakT=0
     n=int(input("Enter the number of times you want to toss the coin: ")) #takes input 'n' from user
     for i in range(0,n): #loop will run 'n' times
         x=random.randint(0,1) #generates random integer numbers from 0 to 1
