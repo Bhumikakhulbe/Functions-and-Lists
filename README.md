@@ -1,5 +1,5 @@
 Collatz function: 
-Firstly a fucntion named "Collatz(number)" is defined with number as a parameter.
+Firstly a function named "Collatz(number)" is defined with number as a parameter.
 Then the if and else conditions are applied to check whether that number is even or odd. 
 If the number is even, the function will return number//2 and if the number will be odd the function will return 3*number+1. 
 In the main function the number is taken as input from user and the while loop will run until the function is not equal to 1.
